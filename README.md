@@ -1,5 +1,5 @@
 # Warehouse
-
+![Elixir CI](https://github.com/solar05/warehouse/workflows/Elixir%20CI/badge.svg)
 # Description
 A simple application for exploring fault tolerance and fault recovery in the Elixir world.
 

@@ -1,18 +1,7 @@
 defmodule Warehouse do
-  @moduledoc """
-  Documentation for `Warehouse`.
-  """
+  use Application
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Warehouse.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def start(_type, _args) do
+    Warehouse.Supervisor.start_link()
   end
 end

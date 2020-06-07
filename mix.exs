@@ -14,6 +14,7 @@ defmodule Warehouse.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
+      mod: {Warehouse, []},
       extra_applications: [:logger]
     ]
   end
